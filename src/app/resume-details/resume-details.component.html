@@ -1,0 +1,50 @@
+<div id="details-container">
+    <div id="ABOUT">
+    <p>I am a FullStack Developer mainly working into <span class="white-highlight">Angular, TypeScript</span> and <span class="white-highlight">Django</span>. Currently, I'm a <span class="white-highlight">Senior Software Engineer</span> at <span class="white-highlight">Quantumstreet AI</span>. I contribute to the creation and maintenance of UI components, ensuring our platform meets web accessibility standards and best practices to deliver an inclusive user experience.</p><br>
+        <p>I have experience working with leading Fintech and Banking product firms, where I focused on delivering client-driven enhancements and implementing solutions aligned with stakeholder requirements.</p>
+    </div>
+    <div id="EXPERIENCE">
+
+        <div class="experience-section">
+            <div class="period">Apr 2023-Present</div>
+            <div class="details">
+                <h3>Senior Software Developer <small>at</small> QuantumStreet AI</h3>
+                <ul>
+                    <li *ngFor="let item of quantumstreetExp">{{item}}</li>
+                </ul>
+                <div class="experience-skills">
+                    <div *ngFor="let skills of quantumstreetSkills">{{skills}}</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-section">
+
+            <div class="period">June 2022-Sept 2022</div>
+            <div class="details">
+                <h3>Senior Associate Developer <small>at</small> Unstop</h3>
+                <ul>
+                    <li *ngFor="let item of unstopExp">{{item}}</li>
+                </ul>
+                <div class="experience-skills">
+                    <div *ngFor="let skills of unstopSkills">{{skills}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-section">
+
+            <div class="period">June 2021-June 2022</div>
+            <div class="details">
+                <h3>Software Developer <small>at</small>  Eco-mail</h3>
+                <ul>
+                    <li *ngFor="let item of ecoExp">{{item}}</li>
+                </ul>
+                <div class="experience-skills">
+                    <div *ngFor="let skills of ecoSkills">{{skills}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

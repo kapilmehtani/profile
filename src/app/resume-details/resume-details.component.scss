@@ -1,0 +1,49 @@
+.experience-section{
+    display: flex;
+    .period{
+        color: rgb(var(--white));
+        white-space: nowrap;
+    }
+    .details{
+        padding-left: 1rem;
+        h3{
+            margin: 0;
+            color: rgb(var(--white));
+        }
+        ul{
+            padding-left: 0;
+            margin: 10px;
+            list-style: disc;
+            li{
+                padding-bottom: 10px;
+            }
+        }
+        .experience-skills{
+            color: var(--teal);
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+            div{
+                margin: 0 0.5rem 0.5rem 0;
+                padding: 0.5rem 1rem;
+                border-radius: 999px;
+                background-color: color-mix(in srgb, var(--teal) 10%, transparent);
+                // background-color: rgba(var(--background-color), 0.5);
+            }
+        }
+    }
+    :hover{
+        border-radius: 1rem;
+        background-color: color-mix(in srgb, var(--background-color) 40%,  transparent);
+    }
+}
+small{
+    font-size: 0.75rem;
+    color: rgb(var(--dull-blue));
+}
+#ABOUT{
+    padding: 4rem 0 0 2rem;
+}
+#EXPERIENCE{
+    padding: 4rem 0 0 2rem;
+}

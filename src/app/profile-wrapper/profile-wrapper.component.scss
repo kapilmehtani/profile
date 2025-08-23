@@ -1,0 +1,13 @@
+.profile-container{
+    display: flex;
+    .header-section{
+        width: 40vw;
+        padding: 5rem 2rem 5rem 0 ;
+        height: Calc(100vh - 10rem);
+        position: sticky;
+        top: 0;
+    }
+    .details-section{
+        width: 60vw;
+    }
+}
